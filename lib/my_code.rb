@@ -11,9 +11,8 @@ end
   
 def reduce(array, starting_point=nil)
   total = 0 
-  if starting_point != nil
-    i = starting_point
-  else
+  if starting_point 
+    num = starting_point
     i = 0 
     while i<array.length do 
       total += array[i]
