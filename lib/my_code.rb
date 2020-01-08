@@ -9,6 +9,6 @@ def map(array)
   new
 end
   
-def reduce(array, starting_point=0)
+def reduce(array, starting_point=nil)
   total = 0 
   
