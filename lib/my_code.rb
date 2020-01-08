@@ -17,12 +17,12 @@ def reduce(array, starting_point=nil)
   else 
     num1 = array[0]
     i = 1
-    while i<array.length do 
-      total += array[i]
-      i +=1 
-    end
-    yield(total)
   end
+  while i<array.length do 
+    total += array[i]
+    i +=1 
+  end
+  yield(total)
   total
 end
   
