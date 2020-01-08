@@ -12,10 +12,10 @@ end
 def reduce(array, starting_point=nil)
   total = 0 
   if starting_point 
-    num = starting_point
+    num1 = starting_point
     i = 0 
   else 
-    
+    num1 = array[0]
     while i<array.length do 
       total += array[i]
       i +=1 
